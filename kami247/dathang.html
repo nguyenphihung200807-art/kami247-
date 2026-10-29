@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="0; url=dathang.php">
+    <script>window.location.href = "dathang.php";</script>
+    <title>Đặt hàng - KAMI247</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="dathang.css">
+  </head>
+  <body>
+    <div class="thanh-thong-bao">
+      <div class="khung">Một chút ngon lành mỗi ngày
+        <div class="ngat-dong"></div>
+      </div>
+    </div>
+    <div class="dau-trang">
+      <div class="khung">
+        <a class="thuong-hieu" href="trangchu.html">kami<span>247</span><small>TIỆM NHỎ CỦA BẠN</small></a>
+        <div class="lien-ket-dau"><a href="trangchu.html#san-pham">Khám phá cửa hàng</a><a href="dangnhap.html">Đăng nhập</a><a class="gio-hang" href="dathang.html#gio-hang">Giỏ hàng mẫu · 3</a>
+        </div>
+        <div class="ngat-dong"></div>
+      </div>
+    </div>
+    <div class="thanh-danh-muc">
+      <div class="khung"><a href="trangchu.html#mi">Mì &amp; đồ ăn liền</a><a href="trangchu.html#nuoc">Nước giải khát</a><a href="trangchu.html#com">Cơm &amp; đồ ăn nóng</a><a href="trangchu.html#snack">Snack &amp; bánh kẹo</a><a href="trangchu.html#kem">Kem mát lạnh</a>
+        <div class="ngat-dong"></div>
+      </div>
+    </div>
+    <div id="noi-dung" class="khung">
+      <div class="tieu-de-trang">
+        <p class="dong-nho">CỬA HÀNG KAMI247</p>
+        <h1>Sắp đủ một bữa ngon.</h1>
+        <p>Xem lại các món đã chọn và điền thông tin nhận hàng.</p>
+      </div>
+      <div class="cot-dat-hang">
+        <form action="#xac-nhan" method="post">
+          <div class="hop">
+            <p class="dong-nho">01 / NGƯỜI NHẬN</p>
+            <h2>Thông tin giao hàng</h2>
+            <div class="truong">
+              <label for="nguoi-nhan">Họ và tên</label>
+              <input class="o-nhap" id="nguoi-nhan" type="text" value="" maxlength="120" autocomplete="off" name="ten_nguoi_nhan">
+            </div>
+            <div class="truong">
+              <label for="so-dien-thoai">Số điện thoại</label><p><small>Dùng định dạng quốc tế, ví dụ +84901234567. Khi lưu dữ liệu, không để trống.</small></p>
+              <input class="o-nhap" id="so-dien-thoai" type="text" value="" maxlength="16" autocomplete="off" name="so_dien_thoai_nguoi_nhan">
+            </div>
+            <div class="truong"><label for="dia-chi">Địa chỉ nhận hàng</label><textarea id="dia-chi" rows="4" cols="30" name="dia_chi_giao_hang" maxlength="500"></textarea>
+            </div>
+          </div>
+          <div class="hop">
+            <p class="dong-nho">02 / GIAO HÀNG</p>
+            <h2>Gửi thêm một lời nhắn</h2>
+            <div class="truong"><label for="ghi-chu">Ghi chú cho đơn hàng</label><textarea id="ghi-chu" rows="4" cols="30" name="ghi_chu_khach_hang" maxlength="1000"></textarea>
+            </div>
+            <p>Phí giao hàng mẫu: <strong>15.000 ₫</strong></p>
+          </div>
+          <div class="hop">
+            <p class="dong-nho">03 / THANH TOÁN</p>
+            <h2>Bạn muốn thanh toán thế nào?</h2>
+            <fieldset>
+              <legend>Phương thức thanh toán</legend>
+              <p><label><input type="radio" name="phuong_thuc_thanh_toan" value="thu_khi_nhan" checked> Thanh toán khi nhận hàng</label></p>
+              <p><label><input type="radio" name="phuong_thuc_thanh_toan" value="chuyen_khoan"> Chuyển khoản ngân hàng</label></p>
+            </fieldset>
+          </div>
+          <div class="hop" id="xac-nhan">
+            <p class="ghi-chu">Đơn hàng minh họa. Bấm xác nhận để xem giao diện đặt hàng thành công; thông tin nhập chưa được gửi hoặc lưu.</p>
+            <a class="nut" href="dathangthanhcong.html">Xác nhận đặt hàng</a> <input class="nut-phu" type="reset" value="Nhập lại thông tin">
+          </div>
+        </form>
+      </div>
+      <div class="cot-tom-tat">
+        <div class="hop" id="gio-hang">
+          <p class="dong-nho">GIỎ HÀNG MẪU / 3 SẢN PHẨM</p>
+          <h2>Những món đã chọn</h2>
+          <div class="mon-trong-gio"><img src="assets/anh-web/mi-nuoc.jpg" alt="Ảnh minh họa món mì">
+            <div>
+              <h3>Mì cay hải sản</h3>
+              <p>Gói 75 g · Số lượng: 2</p><strong>24.000 ₫</strong>
+            </div>
+            <div class="ngat-dong"></div>
+          </div>
+          <div class="mon-trong-gio"><img src="assets/anh-web/tra-dao.jpg" alt="Ảnh minh họa trà đá">
+            <div>
+              <h3>Trà đào thanh mát</h3>
+              <p>Chai 450 ml · Số lượng: 1</p><strong>15.000 ₫</strong>
+            </div>
+            <div class="ngat-dong"></div>
+          </div>
+          <p class="dong-tien">Tiền hàng <strong>39.000 ₫</strong></p>
+          <p class="dong-tien">Phí giao hàng <strong>15.000 ₫</strong></p>
+          <p class="dong-tien tong-tien">Tổng thanh toán <strong>54.000 ₫</strong></p>
+          <a href="trangchu.html#san-pham">&larr; Tiếp tục xem cửa hàng</a>
+        </div>
+      </div>
+      <div class="ngat-dong"></div>
+    </div>
+    <div class="chan-trang">
+      <div class="khung">
+        <div class="cot-chan">
+          <p class="ten-chan">kami247</p>
+          <p>Món quen, vị mới.<br>Một góc nhỏ cho những điều ngon lành.</p>
+        </div>
+        <div class="cot-chan">
+          <h2>Khám phá</h2><a href="trangchu.html#san-pham">Danh mục sản phẩm</a><a href="dathang.html">Giỏ hàng & đặt hàng</a><a href="taikhoan.html">Hồ sơ người dùng</a>
+        </div>
+        <div class="cot-chan">
+          <h2>KAMI247</h2><a href="dangnhap.html">Đăng nhập</a><a href="dangky.html">Tạo tài khoản</a><a href="quantri.html">Hồ sơ quản trị viên</a>
+        </div>
+        <div class="ngat-dong"></div>
+        <div class="dong-ban-quyen">
+          <p>KAMI247 · Bài thực hành HTML & CSS</p>
+          <p>Sản phẩm, giá và đơn hàng là dữ liệu minh họa. Ảnh chụp từ <a href="https://unsplash.com">Unsplash</a>, dùng minh họa nhóm món ăn.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

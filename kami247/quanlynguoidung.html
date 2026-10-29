@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quản lý người dùng - KAMI247</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="quantri.css">
+  </head>
+  <body>
+    <div class="thanh-thong-bao">
+      <div class="khung">Một chút ngon lành mỗi ngày
+        <div class="ngat-dong"></div>
+      </div>
+    </div>
+    <div class="dau-trang">
+      <div class="khung">
+        <a class="thuong-hieu" href="trangchu.html">kami<span>247</span><small>TIỆM NHỎ CỦA BẠN</small></a>
+        <div class="lien-ket-dau"><a href="trangchu.html#san-pham">Khám phá cửa hàng</a><a href="dangnhap.html">Đăng nhập</a><a class="gio-hang" href="dathang.html#gio-hang">Giỏ hàng mẫu · 3</a>
+        </div>
+        <div class="ngat-dong"></div>
+      </div>
+    </div>
+    <div id="noi-dung" class="khung">
+      <div class="tieu-de-trang">
+        <p class="dong-nho">KAMI247 / QUẢN TRỊ CỬA HÀNG</p>
+        <h1>Quản lý người dùng</h1>
+        <p>Xem hồ sơ, vai trò và trạng thái tài khoản.</p>
+      </div>
+      <p class="ghi-chu">Giao diện quản trị minh họa. Thao tác lưu và phân quyền chưa được kết nối.</p>
+      <div class="cot-menu" id="dieu-huong">
+        <div class="menu-quan-tri">
+          <p class="chu-viet-tat">QT</p>
+          <h2>Quản trị viên mẫu</h2>
+          <p>quantri_mau</p><p class="nhan">Quản trị viên</p>
+          <a href="quantri.html">Hồ sơ cá nhân</a>
+          <a href="quanlysanpham.html">Quản lý sản phẩm</a>
+          <a href="quanlydonhang.html">Quản lý đơn hàng</a>
+          <a class="dang-chon" href="quanlynguoidung.html">Quản lý người dùng</a>
+          <a href="trangchu.html">&larr; Về cửa hàng</a>
+          <a href="dangnhap.html">Về trang đăng nhập</a>
+        </div>
+      </div>
+      <div class="cot-quan-tri">
+        <div id="nguoi-dung">
+
+        
+        <div class="thong-ke">
+          <div class="o-thong-ke">
+            <p>Tài khoản mẫu</p><strong>3</strong>
+          </div>
+          <div class="o-thong-ke">
+            <p>Dữ liệu</p><strong>Minh họa</strong>
+          </div>
+          <div class="ngat-dong"></div>
+        </div>
+        <div class="hop">
+          <h2>Danh sách người dùng</h2>
+          <div class="cuon-bang">
+            <table>
+              <caption>Tài khoản minh họa, không phải người dùng thật</caption>
+              <thead>
+                <tr>
+                  <th>Mã</th>
+                  <th>Tên đăng nhập</th>
+                  <th>Họ tên</th>
+                  <th>Email</th>
+                  <th>Điện thoại</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01</td>
+                  <td>khach_mau01</td>
+                  <td>Khách minh họa 1</td>
+                  <td>khach1@example.com</td>
+                  <td>Chưa cập nhật</td>
+                </tr>
+                <tr>
+                  <td>02</td>
+                  <td>khach_mau02</td>
+                  <td>Khách minh họa 2</td>
+                  <td>khach2@example.com</td>
+                  <td>Chưa cập nhật</td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>khach_mau03</td>
+                  <td>Khách minh họa 3</td>
+                  <td>khach3@example.com</td>
+                  <td>Chưa cập nhật</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="hop">
+          <p class="dong-nho">THÔNG TIN TÀI KHOẢN</p>
+          <h2>Xem hồ sơ người dùng</h2>
+          <form action="#nguoi-dung" method="post">
+            <div class="truong"><label for="nd-ma-nguoi-dung">Chọn tài khoản</label><select id="nd-ma-nguoi-dung" name="ma"><option value="1">01 · khach_mau01</option><option value="2">02 · khach_mau02</option><option value="3">03 · khach_mau03</option></select>
+            </div>
+            <div class="truong">
+              <label for="nd-ho-ten-mau">Họ tên</label>
+              <input class="o-nhap" id="nd-ho-ten-mau" type="text" value="Khách minh họa 1" maxlength="120" autocomplete="off" name="ho_ten">
+            </div>
+            <div class="truong">
+              <label for="nd-gmail-mau">Email</label>
+              <input class="o-nhap" id="nd-gmail-mau" type="text" value="khach1@example.com" maxlength="254" autocomplete="off" name="gmail">
+            </div>
+            <div class="truong">
+              <label for="nd-sdt-mau">Số điện thoại</label><p><small>Dùng định dạng quốc tế, ví dụ +84901234567. Khi lưu dữ liệu, không để trống.</small></p>
+              <input class="o-nhap" id="nd-sdt-mau" type="text" value="" maxlength="16" autocomplete="off" name="so_dien_thoai">
+            </div>
+            <div class="truong"><label for="nd-vai-tro">Vai trò</label><select id="nd-vai-tro" name="vai_tro"><option value="khach_hang">Khách hàng</option><option value="quan_tri">Quản trị viên</option></select></div>
+
+            <div class="truong"><label for="nd-tai-khoan-hoat-dong">Trạng thái tài khoản</label><select id="nd-tai-khoan-hoat-dong" name="dang_hoat_dong"><option value="0">Chưa kích hoạt / Đã khóa</option><option value="1">Đang hoạt động</option></select></div>
+<p class="ghi-chu">Chỉ kích hoạt khi tài khoản đã có mật khẩu băm hợp lệ. Tài khoản minh họa chưa được tạo trong database.</p><input class="nut nut-tat" type="button" value="Lưu thông tin" disabled title="Bản giao diện tĩnh, chưa xử lý dữ liệu">
+          </form>
+        </div>
+        <div class="hop">
+          <h2>Xóa tài khoản</h2>
+          <p>Chỉ xóa tài khoản chưa có đơn hàng. Với tài khoản đã có đơn, dùng trạng thái khóa để giữ lịch sử mua hàng.</p>
+          <div class="truong">
+            <label for="nd-ma-xoa">Mã người dùng</label>
+            <input class="o-nhap" id="nd-ma-xoa" type="text" value="" maxlength="20" autocomplete="off" name="ma">
+          </div><input class="nut nut-tat" type="button" value="Xóa tài khoản" disabled title="Bản giao diện tĩnh, chưa xử lý dữ liệu">
+        </div>
+      
+        </div>
+      </div>
+      <div class="ngat-dong"></div>
+    </div>
+    <div class="chan-trang">
+      <div class="khung">
+        <div class="cot-chan">
+          <p class="ten-chan">kami247</p>
+          <p>Món quen, vị mới.<br>Một góc nhỏ cho những điều ngon lành.</p>
+        </div>
+        <div class="cot-chan">
+          <h2>Khám phá</h2><a href="trangchu.html#san-pham">Danh mục sản phẩm</a><a href="dathang.html">Giỏ hàng & đặt hàng</a><a href="taikhoan.html">Hồ sơ người dùng</a>
+        </div>
+        <div class="cot-chan">
+          <h2>KAMI247</h2><a href="dangnhap.html">Đăng nhập</a><a href="dangky.html">Tạo tài khoản</a><a href="quantri.html">Hồ sơ quản trị viên</a>
+        </div>
+        <div class="ngat-dong"></div>
+        <div class="dong-ban-quyen">
+          <p>KAMI247 · Bài thực hành HTML & CSS</p>
+          <p>Sản phẩm, giá và đơn hàng là dữ liệu minh họa. Ảnh chụp từ <a href="https://unsplash.com">Unsplash</a>, dùng minh họa nhóm món ăn.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

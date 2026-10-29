@@ -1,0 +1,54 @@
+/* Hồ sơ bên trái, lịch sử đơn hàng bên phải. */
+.cot-ho-so {
+  float: left;
+  width: 31%;
+  min-width: 280px;
+  max-width: 100%;
+}
+.cot-lich-su {
+  float: left;
+  width: 67%;
+  min-width: 280px;
+  max-width: 100%;
+  margin-left: 2%;
+}
+.thong-tin-ho-so {
+  margin: 22px 0;
+}
+.thong-tin-ho-so p {
+  padding: 10px 0;
+  border-bottom: 1px solid #e6eadf;
+  font-size: 12px;
+  color: #6b785f;
+}
+.thong-tin-ho-so strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #253b2e;
+}
+.chi-tiet-don {
+  margin-top: 22px;
+}
+
+/* Thẻ hồ sơ và menu dùng thuộc tính CSS cơ bản. */
+.chu-viet-tat {
+  width: 64px;
+  padding: 12px 0;
+  margin-bottom: 20px;
+  background-color: #e9efde;
+  color: #23583d;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.menu-ho-so a {
+  display: block;
+  padding: 12px 0;
+  border-bottom: 1px solid #e6eadf;
+  font-size: 14px;
+}
+.o-nhap[readonly] {
+  background-color: #edf1e5;
+  color: #526843;
+}

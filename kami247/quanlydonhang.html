@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quản lý đơn hàng - KAMI247</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="quantri.css">
+  </head>
+  <body>
+    <div class="thanh-thong-bao">
+      <div class="khung">Một chút ngon lành mỗi ngày
+        <div class="ngat-dong"></div>
+      </div>
+    </div>
+    <div class="dau-trang">
+      <div class="khung">
+        <a class="thuong-hieu" href="trangchu.html">kami<span>247</span><small>TIỆM NHỎ CỦA BẠN</small></a>
+        <div class="lien-ket-dau"><a href="trangchu.html#san-pham">Khám phá cửa hàng</a><a href="dangnhap.html">Đăng nhập</a><a class="gio-hang" href="dathang.html#gio-hang">Giỏ hàng mẫu · 3</a>
+        </div>
+        <div class="ngat-dong"></div>
+      </div>
+    </div>
+    <div id="noi-dung" class="khung">
+      <div class="tieu-de-trang">
+        <p class="dong-nho">KAMI247 / QUẢN TRỊ CỬA HÀNG</p>
+        <h1>Quản lý đơn hàng</h1>
+        <p>Xem chi tiết đơn và cập nhật trạng thái xử lý.</p>
+      </div>
+      <p class="ghi-chu">Giao diện quản trị minh họa. Thao tác lưu và phân quyền chưa được kết nối.</p>
+      <div class="cot-menu" id="dieu-huong">
+        <div class="menu-quan-tri">
+          <p class="chu-viet-tat">QT</p>
+          <h2>Quản trị viên mẫu</h2>
+          <p>quantri_mau</p><p class="nhan">Quản trị viên</p>
+          <a href="quantri.html">Hồ sơ cá nhân</a>
+          <a href="quanlysanpham.html">Quản lý sản phẩm</a>
+          <a class="dang-chon" href="quanlydonhang.html">Quản lý đơn hàng</a>
+          <a href="quanlynguoidung.html">Quản lý người dùng</a>
+          <a href="trangchu.html">&larr; Về cửa hàng</a>
+          <a href="dangnhap.html">Về trang đăng nhập</a>
+        </div>
+      </div>
+      <div class="cot-quan-tri">
+        <div id="don-hang">
+
+        
+        <div class="thong-ke">
+          <div class="o-thong-ke">
+            <p>Đơn mẫu</p><strong>3</strong>
+          </div>
+          <div class="o-thong-ke">
+            <p>Đang giao</p><strong>1</strong>
+          </div>
+          <div class="o-thong-ke">
+            <p>Tổng giá trị mẫu</p><strong>180.000 ₫</strong>
+          </div>
+          <div class="ngat-dong"></div>
+        </div>
+        <div class="hop" id="dh-danh-sach-don">
+          <h2>Danh sách đơn hàng</h2>
+          <div class="cuon-bang">
+            <table>
+              <caption>Đơn hàng minh họa</caption>
+              <thead>
+                <tr>
+                  <th>Mã đơn</th>
+                  <th>Ngày đặt</th>
+                  <th>Trạng thái</th>
+                  <th>Tổng tiền</th>
+                  <th>Chi tiết</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>#KM-24798</td>
+                  <td>13/10/2026</td>
+                  <td><span class="nhan dang-giao">Đang giao</span></td>
+                  <td class="tien">54.000 ₫</td>
+                  <td><a href="#dh-km-24798">Xem đơn</a></td>
+                </tr>
+                <tr>
+                  <td>#KM-24650</td>
+                  <td>12/10/2026</td>
+                  <td><span class="nhan da-giao">Đã giao</span></td>
+                  <td class="tien">55.000 ₫</td>
+                  <td><a href="#dh-km-24650">Xem đơn</a></td>
+                </tr>
+                <tr>
+                  <td>#KM-24512</td>
+                  <td>10/10/2026</td>
+                  <td><span class="nhan da-giao">Đã giao</span></td>
+                  <td class="tien">71.000 ₫</td>
+                  <td><a href="#dh-km-24512">Xem đơn</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="hop chi-tiet-don" id="dh-km-24798">
+          <p class="dong-nho">CHI TIẾT ĐƠN HÀNG</p>
+          <h2>#KM-24798</h2>
+          <p>13/10/2026 · <span class="nhan dang-giao">Đang giao</span></p>
+          <ul class="dong-hang">
+            <li>Mì cay hải sản <span class="so-luong">× 2</span><strong>24.000 ₫</strong>
+              <div class="ngat-dong"></div>
+            </li>
+            <li>Trà đào thanh mát <span class="so-luong">× 1</span><strong>15.000 ₫</strong>
+              <div class="ngat-dong"></div>
+            </li>
+          </ul>
+          <p class="dong-tien">Phí giao hàng <strong>15.000 ₫</strong></p>
+          <p class="dong-tien tong-tien">Tổng thanh toán <strong>54.000 ₫</strong></p><a href="#dh-danh-sach-don">Về danh sách &uarr;</a>
+        </div>
+        <div class="hop chi-tiet-don" id="dh-km-24650">
+          <p class="dong-nho">CHI TIẾT ĐƠN HÀNG</p>
+          <h2>#KM-24650</h2>
+          <p>12/10/2026 · <span class="nhan da-giao">Đã giao</span></p>
+          <ul class="dong-hang">
+            <li>Snack khoai tây <span class="so-luong">× 1</span><strong>17.000 ₫</strong>
+              <div class="ngat-dong"></div>
+            </li>
+            <li>Bánh quy cacao <span class="so-luong">× 1</span><strong>23.000 ₫</strong>
+              <div class="ngat-dong"></div>
+            </li>
+          </ul>
+          <p class="dong-tien">Phí giao hàng <strong>15.000 ₫</strong></p>
+          <p class="dong-tien tong-tien">Tổng thanh toán <strong>55.000 ₫</strong></p><a href="#dh-danh-sach-don">Về danh sách &uarr;</a>
+        </div>
+        <div class="hop chi-tiet-don" id="dh-km-24512">
+          <p class="dong-nho">CHI TIẾT ĐƠN HÀNG</p>
+          <h2>#KM-24512</h2>
+          <p>10/10/2026 · <span class="nhan da-giao">Đã giao</span></p>
+          <ul class="dong-hang">
+            <li>Cơm nắm gà teriyaki <span class="so-luong">× 1</span><strong>24.000 ₫</strong>
+              <div class="ngat-dong"></div>
+            </li>
+            <li>Trà xanh nguyên vị <span class="so-luong">× 1</span><strong>13.000 ₫</strong>
+              <div class="ngat-dong"></div>
+            </li>
+            <li>Kem que sô-cô-la <span class="so-luong">× 1</span><strong>19.000 ₫</strong>
+              <div class="ngat-dong"></div>
+            </li>
+          </ul>
+          <p class="dong-tien">Phí giao hàng <strong>15.000 ₫</strong></p>
+          <p class="dong-tien tong-tien">Tổng thanh toán <strong>71.000 ₫</strong></p><a href="#dh-danh-sach-don">Về danh sách &uarr;</a>
+        </div>
+        <div class="hop">
+          <h2>Cập nhật trạng thái</h2>
+          <form action="#don-hang" method="post">
+            <div class="truong"><label for="dh-chon-don">Mã đơn</label><select id="dh-chon-don" name="ma_don_hang"><option value="KM-24798">KM-24798</option><option value="KM-24650">KM-24650</option><option value="KM-24512">KM-24512</option></select>
+            </div>
+            <div class="truong"><label for="dh-trang-thai">Trạng thái</label><select id="dh-trang-thai" name="trang_thai"><option value="cho_xac_nhan">Chờ xác nhận</option><option value="da_xac_nhan">Đã xác nhận</option><option value="dang_dong_goi">Đang đóng gói</option><option value="dang_giao" selected>Đang giao</option><option value="da_giao">Đã giao</option><option value="da_huy">Đã hủy</option></select>
+            </div>
+            <div class="truong"><label for="dh-ghi-chu-quan-tri">Ghi chú xử lý</label><textarea id="dh-ghi-chu-quan-tri" rows="4" cols="30" name="ghi_chu_quan_tri" maxlength="1000"></textarea>
+            </div>
+<div class="truong"><label for="dh-ly-do-huy">Lý do hủy (bắt buộc khi hủy đơn)</label><textarea id="dh-ly-do-huy" name="ly_do_huy" maxlength="500" rows="3" cols="30"></textarea></div>
+
+            <div class="truong"><label for="dh-thanh-toan-quan-tri">Trạng thái thanh toán</label><select id="dh-thanh-toan-quan-tri" name="trang_thai_thanh_toan"><option value="chua_thanh_toan">Chưa thanh toán</option><option value="da_thanh_toan">Đã thanh toán</option><option value="da_hoan_tien">Đã hoàn tiền</option></select></div>
+<p class="ghi-chu">Khi kết nối xử lý, hệ thống cần ghi thời điểm giao thành công, hủy hoặc thanh toán theo trạng thái; kiểm tra chuyển trạng thái và hoàn tồn kho khi cần.</p><input class="nut nut-tat" type="button" value="Cập nhật trạng thái" disabled title="Bản giao diện tĩnh, chưa xử lý dữ liệu">
+          </form>
+        </div>
+      
+        </div>
+      </div>
+      <div class="ngat-dong"></div>
+    </div>
+    <div class="chan-trang">
+      <div class="khung">
+        <div class="cot-chan">
+          <p class="ten-chan">kami247</p>
+          <p>Món quen, vị mới.<br>Một góc nhỏ cho những điều ngon lành.</p>
+        </div>
+        <div class="cot-chan">
+          <h2>Khám phá</h2><a href="trangchu.html#san-pham">Danh mục sản phẩm</a><a href="dathang.html">Giỏ hàng & đặt hàng</a><a href="taikhoan.html">Hồ sơ người dùng</a>
+        </div>
+        <div class="cot-chan">
+          <h2>KAMI247</h2><a href="dangnhap.html">Đăng nhập</a><a href="dangky.html">Tạo tài khoản</a><a href="quantri.html">Hồ sơ quản trị viên</a>
+        </div>
+        <div class="ngat-dong"></div>
+        <div class="dong-ban-quyen">
+          <p>KAMI247 · Bài thực hành HTML & CSS</p>
+          <p>Sản phẩm, giá và đơn hàng là dữ liệu minh họa. Ảnh chụp từ <a href="https://unsplash.com">Unsplash</a>, dùng minh họa nhóm món ăn.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

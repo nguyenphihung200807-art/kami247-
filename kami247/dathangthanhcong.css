@@ -1,0 +1,30 @@
+/* Trang xác nhận dùng chữ, màu, border, padding và margin cơ bản. */
+.xac-nhan-thanh-cong {
+  max-width: 640px;
+  margin: 48px auto 26px;
+  text-align: center;
+}
+.dau-thanh-cong {
+  width: 64px;
+  margin: 0 auto 22px;
+  border: 1px solid #b9cba8;
+  background-color: #eaf0df;
+  color: #23583d;
+  font-size: 38px;
+  line-height: 64px;
+}
+.xac-nhan-thanh-cong h1 {
+  margin-bottom: 16px;
+}
+.xac-nhan-thanh-cong .ghi-chu {
+  margin-top: 24px;
+}
+.chi-tiet-xac-nhan {
+  max-width: 590px;
+  margin: 0 auto;
+}
+.loi-nhan {
+  margin-top: 24px;
+  color: #62705e;
+  font-size: 14px;
+}

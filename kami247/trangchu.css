@@ -1,0 +1,388 @@
+.gioi-thieu {
+  margin-top: 28px;
+  background-color: #edf1e3;
+}
+
+.loi-chao {
+  float: left;
+  width: 50%;
+  min-width: 280px;
+  max-width: 100%;
+}
+
+.loi-chao-trong {
+  padding: 13% 9%;
+}
+
+.loi-chao h1 {
+  margin: 22px 0;
+  font-size: 52px;
+  line-height: 1.12;
+  letter-spacing: -2px;
+}
+
+.loi-chao h1 em {
+  color: #6a7c42;
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+.loi-chao p {
+  font-size: 14px;
+}
+
+.loi-chao .dong-nho {
+  font-size: 10px;
+}
+
+.loi-chao .nut {
+  margin-top: 16px;
+}
+
+.loi-chao .chi-so {
+  margin-top: 25px;
+  font-size: 11px;
+  color: #68775b;
+}
+
+.chi-so span {
+  margin: 0 14px;
+}
+
+.anh-gioi-thieu {
+  float: left;
+  width: 50%;
+  min-width: 280px;
+  max-width: 100%;
+}
+
+.anh-gioi-thieu p {
+  margin: 0;
+  padding: 8px 14px;
+  background-color: #23583d;
+  color: #ffffff;
+  font-size: 11px;
+}
+
+.mo-dau {
+  margin: 50px 0 26px;
+}
+
+.mo-dau h2 {
+  font-size: 32px;
+}
+
+.mo-dau p {
+  color: #68775b;
+  font-size: 14px;
+}
+
+.o-danh-muc {
+  float: left;
+  width: 18%;
+  min-width: 125px;
+  max-width: 100%;
+  margin: 0 2% 18px 0;
+  background-color: #eff2e9;
+}
+
+.o-danh-muc span {
+  display: block;
+  padding: 13px 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.chu-thich-anh {
+  margin-bottom: 30px;
+  color: #738066;
+  font-size: 11px;
+}
+
+.nhom-san-pham {
+  margin: 40px 0 24px;
+}
+
+.dau-nhom {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dce2d6;
+}
+
+.dau-nhom h2 {
+  font-size: 28px;
+}
+
+.dau-nhom p {
+  margin-bottom: 4px;
+  font-size: 13px;
+  color: #68775b;
+}
+
+.dau-nhom .dong-nho {
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.hang-san-pham {
+  margin-top: 24px;
+}
+
+.cot-san-pham {
+  float: left;
+  width: 33.33%;
+  min-width: 280px;
+  max-width: 100%;
+}
+
+.the-san-pham {
+  margin: 0 12px 22px 0;
+  border: 1px solid #dde3d6;
+  background-color: #ffffff;
+}
+
+.noi-dung-the {
+  padding: 20px;
+}
+
+.quy-cach {
+  margin-bottom: 7px;
+  font-size: 11px;
+  color: #718065;
+}
+
+.noi-dung-the h3 {
+  min-height: 48px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.gia {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+.xem-mon {
+  display: block;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #e6eadf;
+  font-size: 12px;
+}
+
+.loi-moi {
+  margin-top: 36px;
+  background-color: #e8eed9;
+}
+
+.loi-moi-chu {
+  float: left;
+  width: 54%;
+  min-width: 280px;
+  max-width: 100%;
+}
+
+.loi-moi-chu h2,
+.loi-moi-chu p,
+.loi-moi-chu .nut {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.loi-moi-chu .dong-nho {
+  margin-top: 40px;
+}
+
+.loi-moi-chu h2 {
+  font-size: 32px;
+}
+
+.loi-moi-anh {
+  float: left;
+  width: 46%;
+  min-width: 280px;
+  max-width: 100%;
+}
+
+/* 1. Thanh tìm kiếm nhỏ gọn trên Header và đầu trang */
+.tim-kiem-nho-gon {
+  float: left;
+  margin: 6px 0 0 32px;
+  width: 320px;
+  max-width: 100%;
+  background-color: #fbfcf9;
+  border: 1px solid #c5d1b8;
+  border-radius: 999px;
+  padding: 3px 4px 3px 14px;
+  display: flex;
+  align-items: center;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.tim-kiem-nho-gon:focus-within {
+  border-color: #23583d;
+  box-shadow: 0 0 0 3px rgba(35, 88, 61, 0.12);
+  background-color: #ffffff;
+}
+
+.tim-kiem-nho-gon input[type="text"] {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 13.5px;
+  color: #253b2e;
+  font-family: Arial, sans-serif;
+  padding: 5px 0;
+}
+
+.tim-kiem-nho-gon button {
+  background-color: #23583d;
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 12.5px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+
+.tim-kiem-nho-gon button:hover {
+  background-color: #183f2b;
+}
+
+.thong-bao-tim-kiem {
+  display: none;
+  margin: 18px 0;
+  padding: 12px 16px;
+  background-color: #edf1e5;
+  border-left: 4px solid #23583d;
+  color: #253b2e;
+  font-size: 13.5px;
+}
+
+/* 2. Khu vực chọn số lượng, Thêm vào giỏ hàng & Mua ngay trong thẻ món hàng */
+.khung-mua-hang {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #e6eadf;
+}
+
+.dong-so-luong {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 12.5px;
+  color: #516247;
+}
+
+.bo-chon-so-luong {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #c5d1b8;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.nut-sl {
+  background-color: #f0f3e9;
+  border: none;
+  width: 28px;
+  height: 28px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #23583d;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.nut-sl:hover {
+  background-color: #dce2d6;
+}
+
+.o-so-luong {
+  width: 36px;
+  height: 28px;
+  text-align: center;
+  border: none;
+  border-left: 1px solid #c5d1b8;
+  border-right: 1px solid #c5d1b8;
+  font-size: 13px;
+  font-weight: bold;
+  color: #253b2e;
+  background-color: #ffffff;
+  outline: none;
+  -moz-appearance: textfield;
+}
+
+.o-so-luong::-webkit-outer-spin-button,
+.o-so-luong::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.nhom-nut-mua {
+  display: flex;
+  gap: 8px;
+}
+
+.nut-them-gio,
+.nut-mua-ngay {
+  flex: 1;
+  padding: 9px 6px;
+  font-size: 12.5px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: all 0.2s;
+}
+
+.nut-them-gio {
+  background-color: #f4f7ef;
+  color: #23583d;
+  border: 1px solid #23583d;
+}
+
+.nut-them-gio:hover {
+  background-color: #e3ebd8;
+}
+
+.nut-mua-ngay {
+  background-color: #23583d;
+  color: #ffffff;
+  border: 1px solid #23583d;
+}
+
+.nut-mua-ngay:hover {
+  background-color: #183f2b;
+}
+
+.thong-bao-gio-noi {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: #23583d;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  font-size: 13.5px;
+  z-index: 9999;
+  display: none;
+}
+
+@media (max-width: 820px) {
+  .tim-kiem-nho-gon {
+    float: none;
+    margin: 12px 0 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+

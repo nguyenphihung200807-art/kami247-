@@ -1,0 +1,60 @@
+/* Trang tài khoản: hai cột float, biểu mẫu HTML cơ bản. */
+.bo-cuc-tai-khoan {
+  margin: 12px 0 40px;
+}
+.cot-trai-auth {
+  float: left;
+  width: 43%;
+  min-width: 280px;
+  max-width: 100%;
+}
+.cot-phai-auth {
+  float: left;
+  width: 53%;
+  min-width: 275px;
+  max-width: 96%;
+  margin-left: 3%;
+}
+.gioi-thieu-tai-khoan {
+  padding: 30px;
+  background-color: #e9efde;
+}
+.gioi-thieu-tai-khoan h2 {
+  margin: 25px 0;
+  font-size: 40px;
+}
+.gioi-thieu-tai-khoan em {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  color: #6a7c42;
+}
+.gioi-thieu-tai-khoan img {
+  margin-top: 28px;
+}
+.gioi-thieu-tai-khoan p {
+  margin-top: 16px;
+  font-size: 12px;
+}
+.hop-form {
+  padding: 28px 6%;
+  background-color: #ffffff;
+  border: 1px solid #dce2d6;
+}
+.hop-form h1 {
+  margin-bottom: 14px;
+  font-size: 34px;
+}
+.hop-form p {
+  font-size: 13px;
+}
+.hop-form .ghi-chu {
+  margin: 20px 0;
+  font-size: 12px;
+}
+.hop-form .chuyen-trang {
+  margin-top: 22px;
+}
+.hop-form a {
+  font-weight: bold;
+  font-size: 13px;
+}
